@@ -6,7 +6,7 @@ const SportsContainer = styled.div `
     max-width: 100%;
     height: 100%;
     background-color:black;
-    padding: 3%
+    padding: 3%;
 `
 const SportsHeader = styled.div `
     margin-bottom: 15%;
@@ -33,7 +33,6 @@ const SportsHeader = styled.div `
         text-transform: uppercase;
         cursor: pointer;
         transition: all .16s ease;
-        space
     }
 `
 const GamesContainer = styled.div ` 
@@ -149,10 +148,10 @@ const GameCard = styled.div `
     flex-direction: column;
     gap: 0.5em;
     background-color: #242424;
-    height: 48px;x
+    height: 48px;
   }
-`
-  
+`;
+
 function Sportsbook() {
 
 
@@ -193,7 +192,6 @@ function Sportsbook() {
                     <tbody>
                         <tr>
                             <th className='gameInfo'>
-                                <a className='eventCellLink'>
                                     <div className='eventCell'>
                                         <div className='gameStatus'>
                                             <span className='gameTime'>
@@ -210,7 +208,6 @@ function Sportsbook() {
                                         </div>
 
                                     </div>
-                                </a>
                             </th>
                             <td className='lineCol'>
                                 <div className="lineContainer">
